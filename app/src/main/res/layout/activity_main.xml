@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/udpng"
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/udpng" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#1976D2"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="58dp"
+            android:src="@drawable/address"
+            android:paddingLeft="8dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2465 Latham St, Mountain View, CA 94043"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:src="@drawable/call"
+            android:paddingTop="10dp"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="650-555-5555"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+    </LinearLayout>
+
+</LinearLayout>
